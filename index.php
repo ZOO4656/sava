@@ -3,8 +3,6 @@
         '塩サバ',
         'サバの味噌煮',
         'サバ寿司',
-        'サバカレー',
-        'サババーガー',
         'サバうどん',
         'サバ焼きそば',
         'サバご飯',
@@ -18,7 +16,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>サバパーティの始まりだ!!</title>
     <link rel="stylesheet" href="">
 </head>
 <body>
