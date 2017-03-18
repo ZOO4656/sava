@@ -16,6 +16,7 @@
          <!-- 適応対象の要素 -->
          <div class="sushi">
              <span class="sushi-title">お寿司食べたい</span>
+
          </div>
 
          <div class="takoyaki">
@@ -35,19 +36,63 @@
     .sushi {
         height: 400px;
         border: solid 1px #000;
+        font-weight: 100;
+        word-spacing: 1;
+        color:#ff0000;
+        background-color: #ffff00;
+        width: 50;
+        margin:20;
+        padding: 20
+        max-width:20;
+        max-height: 20;
+        min-height: 20;
+        min-width: 20;
+        font-style: normal;
     }
 
     .sushi-title {
         font-size: 36px;
+        font-weight: 300;
+        color: #00ff00;
+        background-color: #ff0000; 
+        width:80;
+        margin:40;
+        padding: 40
+        max-width:40;
+        max-height: 40;
+        min-width: 40;
+        min-height: 40;
+        font-style: italic;
     }
 
     .takoyaki {
         height: 400px;
         border: solid 1px #000;
+        font-weight: 600;
+        color:#0000ff ;
+        background-color: #00ff00;
+        width:100;
+        margin:60;
+        padding: 60;
+        max-width: 60;
+        max-height: 60;
+        min-width: 60;
+        min-height:60;
+        font-style: oblique;
     }
 
     .takoyaki-title {
         font-size: 36px;
+        font-weight: 900
+        color:#ffffff;
+        background-color: #000000;
+        width:300;
+        margin:80;
+        padding: 80;
+        max-width: 80;
+        max-height: 80;
+        min-height: 80;
+        min-width: 80;
     }
 
 </style>
