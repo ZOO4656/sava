@@ -35,7 +35,7 @@
         <h4>SQL文</h4>
         <p>
         <!-- 解答欄 -->
-
+        select book_color from demons where  book_color = "シルバー";
         <!---->
         </p>
 
@@ -73,8 +73,8 @@
         <h4>SQL文</h4>
         <ol>
         <!-- 解答欄 -->
-            <li> </li>
-            <li> </li>
+            <li> insert into demons(id,partner_id,name,book_color) value (8,8,"ウマゴン","オレンジ");</li>
+            <li> insert into partners(id,name) value (8,"カフカ・サンビーム");</li>
         <!---->
         </ol>
 
@@ -84,7 +84,7 @@
         <h4>SQL文</h4>
         <p>
         <!-- 解答欄 -->
-
+        update partners set name = "パルコ・フォルゴレ" where id = 3;
         <!---->
         </p>
 
@@ -94,7 +94,7 @@
         <h4>SQL文</h4>
         <p>
         <!-- 解答欄 -->
-
+        select * from partners inner join demons on partners.id = demons.partner_id;
         <!---->
         </p>
 
@@ -105,7 +105,15 @@
         <h4>SQL文</h4>
         <p>
         <!-- 解答欄 -->
-
+        <pre>
+        select *
+        from
+        spells inner join demons
+        on
+        spells.demon_id = demons.id
+        where
+        spells.demon_id = 2;
+        </pre>
         <!---->
         </p>
 
@@ -129,7 +137,15 @@
         <h4>SQL文</h4>
         <p>
         <!-- 解答欄 -->
-
+        <pre>
+        select spells.explaination
+        from partners
+        inner join demons
+        on partners.id = demons.partner_id
+        inner join spells
+        on demons.id = spells.demon_id
+        where partners.name = "グスタフ";
+        </pre>
         <!---->
         </p>
 
